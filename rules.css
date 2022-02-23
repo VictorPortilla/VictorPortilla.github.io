@@ -27,6 +27,9 @@ td img {
     max-height: 100%;
     max-width: 100%;
 }
+p {
+    text-align: justify;
+}
 
 .text_right {
     color: whitesmoke;
