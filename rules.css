@@ -61,6 +61,12 @@ p {
     font-weight: 700;
     letter-spacing: 5px;
     font-size: larger;
+    margin-top:30px;
+}
+
+.portfolio_parag {
+    width: 80%;
+    margin: auto;
 }
 
 .container {
