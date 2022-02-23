@@ -3,6 +3,7 @@ head, body {
     width: 90%;
     margin-right: auto;
     margin-left: auto;
+    max-width: 1850px;
 }
 header {
     font-family: 'Trebuchet MS', sans-serif;
