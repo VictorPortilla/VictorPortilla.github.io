@@ -1,0 +1,118 @@
+head, body {
+    background-color: #F1F7ED;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+header {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color: #1e2f23ff;
+    padding-top: 20px;
+}
+hr {
+    color: #607744ff;
+    width: 100%;
+}
+table {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100 px;
+}
+td {
+    padding: 5px;
+}
+td img {
+    border-radius: 5%;  
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.text_right {
+    color: whitesmoke;
+    float: right;
+    margin-right: 5px;
+}
+
+.text_center {
+    color: whitesmoke;
+    width: 80%;
+    margin: auto;
+}
+
+.section1 {
+    margin-left: 3%;
+    margin-right: 3%;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.subsection {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.portfolio_subtitle {
+    text-align: center;
+    color: gray;
+    font-weight: 700;
+    letter-spacing: 5px;
+    font-size: larger;
+}
+
+.container {
+    width: 100%;
+    background-color: lightgrey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    font-size: 20px;
+}
+
+.cplusplus {
+    background-color: #FE433Cff;
+    width: 80%;
+    margin-left: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.python {
+    background-color: #F31D64ff;
+    width: 70%;
+    margin-left: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.mathlab {
+    background-color: #A224ADff;
+    width: 60%;
+    margin-left: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.javascript {
+    background-color: #3C50B1ff;
+    width: 50%;
+    margin-left: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.hr2 {
+    width: 85%;
+}
+
+/* CSS HEX 
+--tart-orange: #FE433Cff;
+--paradise-pink: #F31D64ff;
+--purple-munsell: #A224ADff;
+--violet-blue: #3C50B1ff;
+--tufts-blue: #0095EFff;
+*/
