@@ -3,32 +3,66 @@ body {
     margin: 0%;
     font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
-hr {
-    color: #607744ff;
-    width: 100%;
-}
+
 section {
     margin-left: 3%;
     margin-right: 3%;
     
 }
+
+p {
+    text-align: justify;
+}
+
+hr {
+    color: #607744ff;
+    width: 100%;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 40%;
+}
+
 table {
     margin-right: auto;
     margin-left: auto;
-    width: 100 px;
+    border-collapse: collapse;
 }
-td {
-    padding: 5px;
-}
+
 td img {
     border-radius: 5%;  
     max-height: 100%;
     max-width: 100%;
 }
-p {
-    text-align: justify;
+
+.main_body {
+    background-color: #F1F7ED;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1850px;
 }
-a {
+
+.subsection {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.hr2 {
+    width: 85%;
+}
+
+.header_1 {
+    margin: 0%;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+}
+
+.header_1 a {
     display: block;
     padding-left: 20px;
     padding-right: 20px;
@@ -41,19 +75,11 @@ a {
     color: black;
     text-decoration: none;
 }
-a:visited {
+
+.header_1 a:visited {
     color: black;
     text-decoration: none;
 }
-
-.header_1 {
-    margin: 0%;
-    padding: 15px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    column-gap: 20px;
-}
-
 
 .header_2 {
     font-family: 'Trebuchet MS', sans-serif;
@@ -63,46 +89,6 @@ a:visited {
     margin-right: auto;
     margin-left: auto;
     max-width: 1850px;
-}
-
-.main_body {
-    background-color: #F1F7ED;
-    width: 90%;
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 1850px;
-}
-
-.text_right {
-    color: whitesmoke;
-    float: right;
-    margin-right: 5px;
-}
-
-.text_center {
-    color: whitesmoke;
-    width: 80%;
-    margin: auto;
-}
-
-.subsection {
-    width: 80%;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.portfolio_subtitle {
-    text-align: center;
-    color: gray;
-    font-weight: 700;
-    letter-spacing: 5px;
-    font-size: larger;
-    margin-top:30px;
-}
-
-.portfolio_parag {
-    width: 80%;
-    margin: auto;
 }
 
 .container {
@@ -150,13 +136,84 @@ a:visited {
     text-align: center;
 }
 
-.hr2 {
-    width: 85%;
+.text_right {
+    color: whitesmoke;
+    float: right;
+    margin-right: 5px;
+}
+
+.text_center {
+    color: whitesmoke;
+    width: 80%;
+    margin: auto;
+}
+
+.portfolio_subtitle {
+    text-align: center;
+    color: gray;
+    font-weight: 700;
+    letter-spacing: 5px;
+    font-size: larger;
+    margin-top:30px;
+}
+
+.portfolio_table td{
+    padding: 5px;
+}
+
+.portfolio_parag {
+    width: 80%;
+    margin: auto;
 }
 
 .fecha {
     color: #B9BAA3;
 }
+
+.hobbies_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.hobbies_subt {
+    width:min-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.ent_table td {
+    padding-left: 5px;
+}
+
+.ent_table td a {
+    display: block;
+    color: #8A6A87;
+    margin-bottom: 3px;
+}
+
+.ent_table td a:visited{
+    color: #4a442dff;
+}
+
+.ent_table th {
+    text-align: right;
+    vertical-align: top;
+}
+
+.border_bottom td, .border_bottom th {
+    border-bottom: 1px solid #3d3522ff;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
