@@ -1,19 +1,16 @@
-head, body {
+body {
     background-color: #F1F7ED;
-    width: 90%;
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 1850px;
-}
-header {
-    font-family: 'Trebuchet MS', sans-serif;
-    font-size: 25px;
-    color: #1e2f23ff;
-    padding-top: 20px;
+    margin: 0%;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
 hr {
     color: #607744ff;
     width: 100%;
+}
+section {
+    margin-left: 3%;
+    margin-right: 3%;
+    
 }
 table {
     margin-right: auto;
@@ -31,6 +28,50 @@ td img {
 p {
     text-align: justify;
 }
+a {
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    text-align: center;
+    background-color: #B9BAA3;
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.header_1 {
+    margin: 0%;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+}
+
+
+.header_2 {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color: #1e2f23ff;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1850px;
+}
+
+.main_body {
+    background-color: #F1F7ED;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1850px;
+}
 
 .text_right {
     color: whitesmoke;
@@ -42,12 +83,6 @@ p {
     color: whitesmoke;
     width: 80%;
     margin: auto;
-}
-
-.section1 {
-    margin-left: 3%;
-    margin-right: 3%;
-    font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .subsection {
@@ -119,10 +154,25 @@ p {
     width: 85%;
 }
 
+.fecha {
+    color: #B9BAA3;
+}
+
+
+
 /* CSS HEX 
 --tart-orange: #FE433Cff;
 --paradise-pink: #F31D64ff;
 --purple-munsell: #A224ADff;
 --violet-blue: #3C50B1ff;
 --tufts-blue: #0095EFff;
+*/
+
+/* CSS HEX 
+--mint-cream: #f1f7edff;
+--timberwolf: #d6d5c9ff;
+--laurel-green: #b9baa3ff;
+--dark-lava: #544b3dff;
+--olive-drab-7: #4a442dff;
+--olive-drab-7-2: #3d3522ff;
 */
