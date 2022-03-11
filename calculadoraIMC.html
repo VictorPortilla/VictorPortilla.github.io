@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario</title>
+  <link rel="stylesheet" href="estiloCalc.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+  <script type="text/javascript" src="funcionesCalc.js"></script>
+</head>
+<body class="body">
+  <div class="main_div">
+    <h1>Calculadora de IMC</h1>
+    <form>
+      <label for="peso">Peso: </label><br>
+      <input type="number" name="peso" id="peso" value="Ingresa tu peso..."><span> kg</span><br>
+      <label for="estatura">Estatura: </label><br>
+      <input type="number" id="estatura" name="estatura"><span> m</span><br>
+      <input type="button" value="Calcular" onclick="procesarFormulario()">
+    </form>
+    <div>
+      <p id="imc"></p>
+      <p id="estado"></p>
+      <img id="imagen">
+    </div>
+  </div>
+
+
+</body>
+</html>
